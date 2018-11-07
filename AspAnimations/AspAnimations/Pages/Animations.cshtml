@@ -1,0 +1,38 @@
+﻿@page
+@model AnimationsModel
+@{
+}
+<div class="row">
+    <div class="col-md-3 animations_list" style="        height: 100%;
+        background: #000000;
+        color: #ffffff">
+        <ul style="        list-style: none;">
+            <li><a id="loadAnim1">Move one point Chaos</a></li>
+            <li><a id="loadAnim2">Two Poin Line moving</a></li>
+            <li><a id="loadAnim3">Snow</a></li>
+        </ul>
+    </div>
+    <div class="col-md-9" id="anim_container" style="        background: #cdcdcd;
+        height: 600px;">
+        <div>Select one animation</div>
+        <div id="startAnim1">Start</div>
+        <div id="containerAnm" style="        background: #d0f0f8;
+        height: 90%;
+        width: 90%;
+        position: absolute;">
+        <canvas id="canvas" style="        height: 100%;
+        width: 100%;"></canvas> 
+        </div>
+    </div>
+
+
+
+
+</div>
+@section Scripts{
+    <script src="~/js/animation1.js"></script>
+    <script src="~/js/animation2.js"></script>
+    <script src="~/js/animation3.js"></script>
+
+
+}

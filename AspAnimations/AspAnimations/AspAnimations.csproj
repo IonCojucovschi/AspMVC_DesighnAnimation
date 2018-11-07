@@ -8,4 +8,14 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\js\site.min.js" />
+    <Content Remove="Pages\Animation.cshtml" />
+    <Content Remove="wwwroot\css\site.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Pages\Animations.cshtml.cs">
+      <DependentUpon>Animations.cshtml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>
