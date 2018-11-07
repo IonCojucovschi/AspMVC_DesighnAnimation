@@ -5,6 +5,7 @@ html {
 }
 
 body {
+    background: #060613;
     padding-top: 50px;
     padding-bottom: 20px;
     height: 100%;
@@ -44,7 +45,7 @@ body {
 
 
 
-canvas {
+#canvas {
     position: absolute;
     top: 0;
     left: 0 background-image: linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
@@ -53,4 +54,25 @@ canvas {
     background-image: -webkit-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
     background-image: -ms-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
     background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(105,173,212)), color-stop(0.84, rgb(23,82,145)) );
+}
+
+#backgroundImage {
+    background: url('https://www.serpentiform.bulgari.com/static/images/homepage-serpenti.png') -25px -50px;
+    position: fixed;
+    top: 0;
+    z-index: -999999;
+    background-size: calc(100% + 50px);
+    background-repeat: no-repeat;
+    width: 1289px;
+    height: 725px;
+    top: 0px;
+}
+
+#backgroundCanvas {
+    touch-action: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: block;
+    cursor: inherit;
 }
