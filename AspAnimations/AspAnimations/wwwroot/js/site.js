@@ -24,12 +24,6 @@ $(function(){
    });
 
     $("#loadAnim3").on("click",function(){
-
-     $("#anim_container").empty();
-     $(`<div id="startAnim1">Start</div>
-        <div id="containerAnm" style="background:#d0f0f8;height:90%;width:90%;position:absolute;">
-        <canvas id="canvas" style="height:100%;width:100%;"></canvas> 
-        </div>`).appendTo("#anim_container");
-       init();
+      init();
    });
 });
