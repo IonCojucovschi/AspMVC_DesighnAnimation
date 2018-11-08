@@ -60,11 +60,11 @@ body {
     background: url('https://www.serpentiform.bulgari.com/static/images/homepage-serpenti.png') -25px -50px;
     position: fixed;
     top: 0;
-    z-index: -999999;
+    z-index: -10;
     background-size: calc(100% + 50px);
     background-repeat: no-repeat;
-    width: 1289px;
-    height: 725px;
+    width: 1600px;
+    height: 700px;
     top: 0px;
 }
 
@@ -73,6 +73,9 @@ body {
     position: absolute;
     left: 0px;
     top: 0px;
+    z-index: -20;
+    height: 100%;
+    width: 100%;
     display: block;
     cursor: inherit;
 }
