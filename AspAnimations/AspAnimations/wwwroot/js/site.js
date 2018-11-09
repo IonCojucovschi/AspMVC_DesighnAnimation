@@ -24,7 +24,13 @@ $(function(){
    });
 
     $("#loadAnim3").on("click",function(){
+      InitializeBaseVar();
       init();
+    });
+
+    $("#loadAnim4").on("click",function(){
+      InializeCanvas2();
+      Rotate();
     });
 });
 

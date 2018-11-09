@@ -17,6 +17,12 @@ var flakes = [],
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
+function InitializeBaseVar()
+    {   
+      canvas = $("#canvas")[0];
+      ctx = canvas.getContext("2d");
+    }
+
 function snow() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
